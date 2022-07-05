@@ -21,7 +21,4 @@ class DetailedViewController: UIViewController {
             .bind(to: imageView.rx.image)
             .disposed(by: bag)
     }
-    
-
-
 }

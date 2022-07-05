@@ -45,7 +45,7 @@ class ViewController: UIViewController {
         
         return cell
     },
-                                                                        titleForHeaderInSection: { dataS, index in
+    titleForHeaderInSection: { dataS, index in
         dataS.sectionModels[index].header
     })
     
